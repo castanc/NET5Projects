@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils.csproj", "{65383EC5-CED7-4487-B82E-50C19EC535E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankStatementsProcessor", "..\BankStatementsProcessor\BankStatementsProcessor.csproj", "{B9BD7196-7C1D-4635-A8A3-31EC22477FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C2E60F4-8360-4BCC-9C2C-21FE553F3020}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		GitHub.txt = GitHub.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankStatementProcessorClient", "..\..\BankStatementProcessorClient\BankStatementProcessorClient.csproj", "{33C5DDA1-AAFD-4063-A1D3-EE0C909D39A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPFacade", "..\..\BSPFacade\BSPFacade.csproj", "{EF2556FE-2081-40F7-BCD9-CA1828C52DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextProfiler", "..\..\TextProfiler\TextProfiler.csproj", "{19B20B5A-8D7E-4949-A441-B21D4173B960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelHelper", "..\ExcelHelper\ExcelHelper.csproj", "{9B1F2CE9-BB8E-4CE6-877F-46E654766695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65383EC5-CED7-4487-B82E-50C19EC535E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65383EC5-CED7-4487-B82E-50C19EC535E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65383EC5-CED7-4487-B82E-50C19EC535E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65383EC5-CED7-4487-B82E-50C19EC535E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BD7196-7C1D-4635-A8A3-31EC22477FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BD7196-7C1D-4635-A8A3-31EC22477FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BD7196-7C1D-4635-A8A3-31EC22477FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BD7196-7C1D-4635-A8A3-31EC22477FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C5DDA1-AAFD-4063-A1D3-EE0C909D39A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C5DDA1-AAFD-4063-A1D3-EE0C909D39A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C5DDA1-AAFD-4063-A1D3-EE0C909D39A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C5DDA1-AAFD-4063-A1D3-EE0C909D39A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2556FE-2081-40F7-BCD9-CA1828C52DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2556FE-2081-40F7-BCD9-CA1828C52DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2556FE-2081-40F7-BCD9-CA1828C52DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2556FE-2081-40F7-BCD9-CA1828C52DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B20B5A-8D7E-4949-A441-B21D4173B960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B20B5A-8D7E-4949-A441-B21D4173B960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B20B5A-8D7E-4949-A441-B21D4173B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B20B5A-8D7E-4949-A441-B21D4173B960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1F2CE9-BB8E-4CE6-877F-46E654766695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1F2CE9-BB8E-4CE6-877F-46E654766695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1F2CE9-BB8E-4CE6-877F-46E654766695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1F2CE9-BB8E-4CE6-877F-46E654766695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82FF90DB-7ED5-4626-AE2F-4A39FC16EB9A}
+	EndGlobalSection
+EndGlobal
