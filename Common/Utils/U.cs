@@ -9,6 +9,24 @@ namespace Utils
 {
     public static class U
     {
+
+        public static string Base64Encode(this string plainText)
+        {
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return System.Convert.ToBase64String(plainTextBytes);
+        }
+        public static string Base64Decode(this string base64EncodedData)
+        {
+            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+        }
+
+
+        public static string ChangeExtension(this string fileName, string ext)
+        {
+            return $"{Path.GetDirectoryName(fileName)}\\{Path.GetFileNameWithoutExtension(fileName)}{ext}";
+        }
+
         public static bool ContainsAny(this string text, params char[] chrs)
         {
             if (chrs == null)
@@ -106,7 +124,7 @@ namespace Utils
                 lines[i] = lines[i].CSVToTSV(encloser, colSeparator, origColSep);
 
             if (extension.IsEmpty())
-                extension = Path.GetExtension(fileName);
+                extension = ".tsv";
 
             var fName = fileName.GetNewName("", extension);
             await File.WriteAllLinesAsync(fName, lines, Encoding.UTF8);
